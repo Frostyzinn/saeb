@@ -1,0 +1,98 @@
+{
+  "usuario": [
+    {
+      "idusuario": 1,
+      "name": "Administrador",
+      "email": "admin@teste.com",
+      "password": "$2y$10$5vL/0R8uFehTEJcUvA5u3.dZ4sxWe1lmAE6KNI2CTAMQtGGfzu5dK"
+    },
+    {
+      "idusuario": 2,
+      "name": "Ana Souza",
+      "email": "ana@teste.com",
+      "password": "$2y$10$5vL/0R8uFehTEJcUvA5u3.dZ4sxWe1lmAE6KNI2CTAMQtGGfzu5dK"
+    },
+    {
+      "idusuario": 3,
+      "name": "Carlos Lima",
+      "email": "carlos@teste.com",
+      "password": "$2y$10$5vL/0R8uFehTEJcUvA5u3.dZ4sxWe1lmAE6KNI2CTAMQtGGfzu5dK"
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Martelo de Borracha",
+      "marca": "Tramontina",
+      "modelo": "MB-500",
+      "material": "Borracha e madeira",
+      "tamanho": "30 cm",
+      "peso": "0.50",
+      "tensao": "Não se aplica",
+      "estoque": 12,
+      "estoque_minimo": 5
+    },
+    {
+      "id": 2,
+      "nome": "Chave de Fenda Isolada",
+      "marca": "Vonder",
+      "modelo": "CF-6",
+      "material": "Aço e polímero",
+      "tamanho": "20 cm",
+      "peso": "0.15",
+      "tensao": "Não se aplica",
+      "estoque": 2,
+      "estoque_minimo": 4
+    },
+    {
+      "id": 3,
+      "nome": "Alicate Universal",
+      "marca": "Gedore",
+      "modelo": "AU-8",
+      "material": "Aço",
+      "tamanho": "8 polegadas",
+      "peso": "0.30",
+      "tensao": "Não se aplica",
+      "estoque": 8,
+      "estoque_minimo": 3
+    },
+    {
+      "id": 4,
+      "nome": "Furadeira de Impacto",
+      "marca": "Bosch",
+      "modelo": "GSB-550",
+      "material": "Aço e plástico",
+      "tamanho": "25 cm",
+      "peso": "1.80",
+      "tensao": "220V",
+      "estoque": 0,
+      "estoque_minimo": 2
+    }
+  ],
+  "movimentacoes": [
+    {
+      "id": 1,
+      "produto_id": 1,
+      "usuario_id": 1,
+      "tipo": "entrada",
+      "quantidade": 12,
+      "data_movimentacao": "2026-01-15"
+    },
+    {
+      "id": 2,
+      "produto_id": 2,
+      "usuario_id": 2,
+      "tipo": "entrada",
+      "quantidade": 2,
+      "data_movimentacao": "2026-01-15"
+    },
+    {
+      "id": 3,
+      "produto_id": 3,
+      "usuario_id": 3,
+      "tipo": "entrada",
+      "quantidade": 8,
+      "data_movimentacao": "2026-01-15"
+    }
+  ]
+}

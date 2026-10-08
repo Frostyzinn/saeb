@@ -1,0 +1,27 @@
+# Entrega 01 - Requisitos funcionais
+
+- **RF01 (4.1)**: Autenticar por e-mail e senha, distinguindo campos vazios, e-mail inexistente e senha incorreta.
+- **RF02 (4.2)**: Exibir login limpo, responsivo e em português.
+- **RF03 (5.1.1)**: Exibir o nome do usuário autenticado.
+- **RF04 (5.1.2)**: Encerrar sessão via POST com CSRF e retornar ao login.
+- **RF05 (5.1.3)**: Acessar Cadastro de Produto pelo painel.
+- **RF06 (5.1.4)**: Acessar Gestão de Estoque pelo painel.
+- **RF07 (5.1.5)**: Exibir painel limpo e responsivo.
+- **RF08 (6.1.1)**: Carregar automaticamente todos os produtos em tabela.
+- **RF09 (6.1.2)**: Buscar por nome, marca, modelo ou material, manter termo e permitir limpar busca.
+- **RF10 (6.1.3)**: Cadastrar novo produto.
+- **RF11 (6.1.4)**: Editar produto existente.
+- **RF12 (6.1.5)**: Excluir com confirmação e impedir exclusão com movimentações.
+- **RF13 (6.1.6)**: Validar campos obrigatórios, limites textuais, peso não negativo e estoques inteiros não negativos; preservar dados e mostrar erros no topo e nos campos.
+- **RF14 (6.1.7)**: Retornar à interface principal a partir do cadastro.
+- **RF15 (6.1.8)**: Exibir cadastro responsivo em português.
+- **RF16 (7.1.1)**: Listar estoque em ordem alfabética com algoritmo manual, ignorando caixa e acentos.
+- **RF17 (7.1.2)**: Selecionar produto e escolher entrada ou saída por radio buttons.
+- **RF18 (7.1.3)**: Exigir data válida e não futura na movimentação.
+- **RF19 (7.1.4)**: Alertar após saída abaixo do mínimo e destacar produtos críticos com badge vermelha.
+- **RF20 (7.1.5)**: Exibir gestão de estoque limpa e responsiva.
+- **RF21 (7 adicional)**: Exigir quantidade inteira maior ou igual a 1 e bloquear saída superior ao estoque.
+- **RF22 (7 adicional)**: Registrar movimentação e saldo atomicamente, com trava de produto, responsável autenticado e proteção contra limite INT.
+- **RF23 (7 adicional)**: Exibir histórico com data, produto, tipo, quantidade e responsável, mais recentes primeiro e paginado.
+- **RF24 (7 adicional)**: Retornar da gestão de estoque à interface principal.
+- **RF25 (Segurança)**: Proteger as rotas, usar CSRF, hash bcrypt e escape do Blade.
